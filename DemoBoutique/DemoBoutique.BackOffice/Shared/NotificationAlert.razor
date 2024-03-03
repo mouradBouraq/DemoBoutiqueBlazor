@@ -1,0 +1,30 @@
+﻿@if (IsVisible)
+{
+    <div class="alert alert-@AlertType" role="alert">
+        @Message
+        <button type="button" class="close" @onclick="Dismiss">&times;</button>
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string Message { get; set; }
+
+    [Parameter]
+    public string AlertType { get; set; } = "info";
+
+    [Parameter]
+    public bool IsVisible { get; set; } = true;
+
+
+    [CascadingParameter] public EventCallback OnSave { get; set; }
+
+    [Parameter]
+    public EventCallback<bool> IsVisibleChanged { get; set; }
+
+    private async Task Dismiss()
+    {
+        IsVisible = false;
+        await IsVisibleChanged.InvokeAsync(IsVisible);
+    }
+}

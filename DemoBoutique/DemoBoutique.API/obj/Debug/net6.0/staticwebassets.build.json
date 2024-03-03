@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tSyJTnVSnrTxnU0BKjwVcvkAKHiwVvbLS7ZCCKDsWM4=",
+  "Source": "DemoBoutique.API",
+  "BasePath": "_content/DemoBoutique.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

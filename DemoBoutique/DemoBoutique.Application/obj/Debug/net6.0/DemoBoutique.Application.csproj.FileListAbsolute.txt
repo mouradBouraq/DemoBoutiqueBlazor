@@ -1,0 +1,15 @@
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\obj\Debug\net6.0\DemoBoutique.Application.csproj.AssemblyReference.cache
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\obj\Debug\net6.0\DemoBoutique.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\obj\Debug\net6.0\DemoBoutique.Application.AssemblyInfoInputs.cache
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\obj\Debug\net6.0\DemoBoutique.Application.AssemblyInfo.cs
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\obj\Debug\net6.0\DemoBoutique.Application.csproj.CoreCompileInputs.cache
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\bin\Debug\net6.0\DemoBoutique.Application.deps.json
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\bin\Debug\net6.0\DemoBoutique.Application.dll
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\bin\Debug\net6.0\DemoBoutique.Application.pdb
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\bin\Debug\net6.0\DemoBoutique.Domain.dll
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\bin\Debug\net6.0\DemoBoutique.Domain.pdb
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\obj\Debug\net6.0\DemoBout.C792DCC2.Up2Date
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\obj\Debug\net6.0\DemoBoutique.Application.dll
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\obj\Debug\net6.0\refint\DemoBoutique.Application.dll
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\obj\Debug\net6.0\DemoBoutique.Application.pdb
+C:\Users\A\Desktop\blzor formation\Demo\DemoBoutique\DemoBoutique.Application\obj\Debug\net6.0\ref\DemoBoutique.Application.dll

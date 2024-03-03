@@ -1,0 +1,135 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj",
+        "projectName": "DemoBoutique.BackOffice",
+        "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj",
+        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.BackOffice\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj": {
+                "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj",
+        "projectName": "DemoBoutique.Domain",
+        "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj",
+        "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

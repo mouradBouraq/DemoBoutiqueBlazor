@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DemoBoutique.BackOffice.props" />
+</Project>

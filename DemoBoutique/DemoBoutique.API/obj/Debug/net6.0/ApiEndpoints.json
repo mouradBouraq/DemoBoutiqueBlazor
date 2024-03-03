@@ -1,0 +1,130 @@
+[
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.AuthenticateController",
+    "Method": "CurrentUserInfo",
+    "RelativePath": "api/Authenticate/current-user-info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "DemoBoutique.Domain.Models.CurrentUser",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.AuthenticateController",
+    "Method": "Login",
+    "RelativePath": "api/Authenticate/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DemoBoutique.Domain.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.CategorieController",
+    "Method": "Add",
+    "RelativePath": "api/Categorie/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categorie",
+        "Type": "DemoBoutique.Domain.Categorie.Categorie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.CategorieController",
+    "Method": "Index",
+    "RelativePath": "api/Categorie/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.CategorieController",
+    "Method": "Delete",
+    "RelativePath": "api/Categorie/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.ClientController",
+    "Method": "Index",
+    "RelativePath": "api/Client",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.CommandeController",
+    "Method": "Index",
+    "RelativePath": "api/Commande",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.ProduitController",
+    "Method": "Index",
+    "RelativePath": "api/Produit",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DemoBoutique.API.WeatherForecast, DemoBoutique.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

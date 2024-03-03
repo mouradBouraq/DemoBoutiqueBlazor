@@ -1,0 +1,45 @@
+﻿@using DemoBoutique.BackOffice.Models
+@inherits LayoutComponentBase
+
+<PageTitle>DemoBoutique</PageTitle>
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+        menu
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        </div>
+
+        <article class="content px-4">
+            <CascadingValue Value="event_alert">
+                <NotificationAlert @bind-IsVisible="@alert.IsVisible" Message="@alert.Message" AlertType="@alert.Type" />
+                @Body
+            </CascadingValue>
+        </article>
+    </main>
+</div>
+
+@code {
+    private Alert alert = new Alert();
+    EventCallback<Alert> event_alert => EventCallback.Factory.Create(this, (Action<Alert>)NotificationAlertEvent);
+    private void NotificationAlertEvent(Alert alertNotif)
+    {
+        alert = alertNotif;
+    }
+    protected override async Task OnInitializedAsync()
+    {
+
+    }
+
+    protected override void OnParametersSet()
+    {
+       
+        // Call base implementation
+        base.OnParametersSet();
+    }
+  
+}

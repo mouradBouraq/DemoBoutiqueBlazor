@@ -1,0 +1,43 @@
+﻿<div class="modal" tabindex="-1" role="dialog" style="display: @(IsVisible ? "block" : "none")">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">@Title</h5>
+                <button type="button" class="close" @onclick="CloseModal">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                @ChildContent
+            </div>
+         
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter] public string Title { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; }
+    [Parameter] public bool ShowSaveButton { get; set; }
+    [Parameter] public EventCallback OnSave { get; set; }
+
+    public bool IsVisible { get; set; }
+
+    public void Show()
+    {
+        IsVisible = true;
+        StateHasChanged();
+    }
+
+    public void CloseModal()
+    {
+        IsVisible = false;
+        StateHasChanged();
+    }
+
+    private async Task Save()
+    {
+        await OnSave.InvokeAsync();
+        CloseModal();
+    }
+}

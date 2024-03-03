@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DemoBoutique.BackOffice/1.0.0": {
+        "dependencies": {
+          "DemoBoutique.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DemoBoutique.BackOffice.dll": {}
+        }
+      },
+      "DemoBoutique.Domain/1.0.0": {
+        "runtime": {
+          "DemoBoutique.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DemoBoutique.BackOffice/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DemoBoutique.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
