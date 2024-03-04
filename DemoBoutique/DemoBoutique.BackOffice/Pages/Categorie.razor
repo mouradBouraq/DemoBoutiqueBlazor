@@ -12,7 +12,7 @@
 <PageTitle>Categorie</PageTitle>
 
 <h1>Categorie</h1>
-
+@* <DemoBoutique.BackOffice.Component.DropdownCategorie @bind-CategorieId="sectedCategorieId"></DemoBoutique.BackOffice.Component.DropdownCategorie> *@
 <div class="container">
     <div class="row">
         <div class="d-flex justify-content-end">
@@ -67,14 +67,19 @@
 </MyModal>
 
 @code {
-
+    public int sectedCategorieId;
     MyModal modal;
     private AddCategorie addCategorie;
     public List<DemoBoutique.Domain.Categorie.Categorie> categories = new List<DemoBoutique.Domain.Categorie.Categorie>();
 
+    [CascadingParameter]
+    public Alert testCascading { get; set; }
+
+
     Alert alert = new Alert();
     [CascadingParameter]
     EventCallback<Alert> NotificationAlert { get; set; }
+
 
     protected override async Task OnInitializedAsync()
     {
@@ -100,7 +105,9 @@
         await NotificationAlert.InvokeAsync(alert);
         categories = await _categorieServicecs.All();
 
-
+        testCascading.IsVisible = alert.IsVisible;
+        testCascading.Message = alert.Message;
+        testCascading.Type = alert.Type;
 
     }
     public void Add()

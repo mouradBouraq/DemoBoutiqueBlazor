@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "w8umVyncs+cr8xP8wnNfHytFhdHcx0OuwKU1nOnBMZEiVHiUXYMAX1NGFh4vFYrOVTYyJJMGZB7RjrRTRoERlw==",
+  "dgSpecHash": "jUilk8NpLy1+snFoM7nurnXCZP0YE0hQ/QAkyEPU7awW41ORa3mH2f1T4723NTTMfmccq2J9y9Vdm1SrEK85Kw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.FrontOffice\\DemoBoutique.FrontOffice.csproj",
+  "projectFilePath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.FrontOffice\\DemoBoutique.FrontOffice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.26\\microsoft.aspnetcore.authorization.6.0.26.nupkg.sha512",
     "C:\\Users\\A\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.26\\microsoft.aspnetcore.components.6.0.26.nupkg.sha512",

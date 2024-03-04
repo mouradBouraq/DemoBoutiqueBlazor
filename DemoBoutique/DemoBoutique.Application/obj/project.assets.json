@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Application\\DemoBoutique.Application.csproj",
+      "projectUniqueName": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Application\\DemoBoutique.Application.csproj",
       "projectName": "DemoBoutique.Application",
-      "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Application\\DemoBoutique.Application.csproj",
+      "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Application\\DemoBoutique.Application.csproj",
       "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Application\\obj\\",
+      "outputPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj": {
-              "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj"
+            "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj": {
+              "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj"
             }
           }
         }

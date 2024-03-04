@@ -176,7 +176,7 @@ namespace DemoBoutique.Infrastructure.Persistence.Auth
                 {
                     new Claim(ClaimTypes.Name, user.Email),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                    new Claim("userId", user.Id),
+                    //new Claim("userId", user.Id),
                     new Claim("userName", user.Email),
                 };
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj": {}
+    "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj": {
+    "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj",
         "projectName": "DemoBoutique.Domain",
-        "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj",
+        "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj",
         "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\obj\\",
+        "outputPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",

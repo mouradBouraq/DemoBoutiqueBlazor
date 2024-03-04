@@ -34,7 +34,8 @@ namespace DemoBoutique.BackOffice.Services
             try
             {
                 await AddHeaders();
-                return await _httpClient.GetFromJsonAsync<CurrentUser>("api/Authenticate/current-User-info");
+                var reponse = await _httpClient.GetFromJsonAsync<CurrentUser>("api/Authenticate/current-User-info");
+                return reponse;
             }
             catch (CryptographicException)
             {

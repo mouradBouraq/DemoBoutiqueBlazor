@@ -2396,11 +2396,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Infrastructure\\DemoBoutique.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\DemoBoutique.Infrastructure.csproj",
       "projectName": "DemoBoutique.Infrastructure",
-      "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Infrastructure\\DemoBoutique.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\DemoBoutique.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\A\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2417,11 +2417,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Application\\DemoBoutique.Application.csproj": {
-              "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Application\\DemoBoutique.Application.csproj"
+            "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Application\\DemoBoutique.Application.csproj": {
+              "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Application\\DemoBoutique.Application.csproj"
             },
-            "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj": {
-              "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj"
+            "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj": {
+              "projectPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Domain\\DemoBoutique.Domain.csproj"
             }
           }
         }

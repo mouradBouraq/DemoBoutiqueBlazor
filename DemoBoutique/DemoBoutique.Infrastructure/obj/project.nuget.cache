@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kFb1fXCY4cfFBeDQ8JwuGY+a06iOoakOZdThnZQGNv8i+OXCMoy7nd7LBCkDx6MbRl2MwurQhO96mUj8YjlZXA==",
+  "dgSpecHash": "OaCNoM4Phrn5dhcziBAsOTv/q0GW5P9z4aFiGWyxX8LItd8cN8s8phDB2aCDgcUdcbonaPiTb30e0U9eVEy+rg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\Repos\\DemoBoutique\\DemoBoutique.Infrastructure\\DemoBoutique.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\DemoBoutique.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\A\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\A\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.24\\microsoft.aspnetcore.cryptography.internal.6.0.24.nupkg.sha512",

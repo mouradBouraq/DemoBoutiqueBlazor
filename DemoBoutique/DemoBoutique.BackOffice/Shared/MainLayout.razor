@@ -1,29 +1,50 @@
 ﻿@using DemoBoutique.BackOffice.Models
+@inject AuthenticationStateProvider GetAuthenticationStateAsync
+@inject NavigationManager navigationManager
+
+
 @inherits LayoutComponentBase
 
 <PageTitle>DemoBoutique</PageTitle>
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-        menu
-    </div>
+<AuthorizeView>
+    <Authorized>
+        <div class="page">
+            <div class="sidebar">
+                <NavMenu />
+                menu
+            </div>
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+            <main>
+                <div class="top-row px-4">
+                    <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+                </div>
+
+                <article class="content px-4">
+                    <CascadingValue Value="event_alert">
+                        <CascadingValue Value="testCascading">
+                            <NotificationAlert @bind-IsVisible="@alert.IsVisible" Message="@alert.Message" AlertType="@alert.Type" />
+                            @Body
+                        </CascadingValue>
+                    </CascadingValue>
+                </article>
+            </main>
         </div>
+    </Authorized>
+    <NotAuthorized>
+        @{
+            // navigationManager.NavigateTo("/login", true, true);
+        }
+    </NotAuthorized>
+</AuthorizeView>
 
-        <article class="content px-4">
-            <CascadingValue Value="event_alert">
-                <NotificationAlert @bind-IsVisible="@alert.IsVisible" Message="@alert.Message" AlertType="@alert.Type" />
-                @Body
-            </CascadingValue>
-        </article>
-    </main>
-</div>
 
 @code {
+
+    [CascadingParameter]
+    private Task<AuthenticationState>? authenticationState { get; set; }
+    public Alert testCascading = new Alert();
+
     private Alert alert = new Alert();
     EventCallback<Alert> event_alert => EventCallback.Factory.Create(this, (Action<Alert>)NotificationAlertEvent);
     private void NotificationAlertEvent(Alert alertNotif)
@@ -37,9 +58,9 @@
 
     protected override void OnParametersSet()
     {
-       
+
         // Call base implementation
         base.OnParametersSet();
     }
-  
+
 }

@@ -1,0 +1,43 @@
+﻿@using DemoBoutique.BackOffice.Services
+@inject CategorieServicecs _categorieServicecs
+
+<label for="cars">Choose a categorie:</label>
+
+<select class="form-control" @bind="SelectedId">
+
+    @foreach (var item in categories)
+    {
+        <option value="@item.Id">@item.Name</option>
+    }
+</select>
+
+@code {
+
+
+    [Parameter] public int CategorieId { get; set; }
+    [Parameter] public EventCallback<int> CategorieIdChanged { get; set; }
+    public List<DemoBoutique.Domain.Categorie.Categorie> categories = new List<DemoBoutique.Domain.Categorie.Categorie>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await _categorieServicecs.All();
+        StateHasChanged();
+    }
+
+    private int SelectedId
+    {
+        get
+        {
+            return CategorieId;
+        }
+        set
+        {
+            CategorieId = value;
+            CategorieIdChanged.InvokeAsync(CategorieId);
+        }
+    }
+    // public async Task ClickCar(MouseEventArgs mouseEventArgs, int selectedId)
+    // {
+    //     await SelectedItemChanged.InvokeAsync(selectedId);
+    // }
+}

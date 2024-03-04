@@ -1,7 +1,7 @@
 {
   "entryAssembly": "DemoBoutique.FrontOffice",
   "resources": {
-    "hash": "sha256-NBZOjmrs2+sjIVq1qP/NcmSjSyj4wBEwkGvVQxiBPKI=",
+    "hash": "sha256-DDcScBbkk22ajNicShJxaTNUFXkjuPFqhIPLGpmwA3Y=",
     "runtime": {
       "dotnet.6.0.27.b14xfv420c.js": "sha256-26GREQBtzf9waPgLefTus1ODJdcs93wyAEl2cY4aiD0=",
       "dotnet.timezones.blat": "sha256-Hu3yTR07LZhOqoVr6q2tVZ2tv621ulhIVgZRupSxU6A=",
@@ -200,10 +200,10 @@
       "mscorlib.dll": "sha256-Ub61T08cmIsx8jHdkPjwZqxKIA5MkRMzxFZ6bfRzsQE=",
       "netstandard.dll": "sha256-wKCgBknfB47bayRyJuAX90jCUZRARgJyM9BU3yPC25o=",
       "System.Private.CoreLib.dll": "sha256-Szu5RxgPEPe1xT34BtNc9Meh5TEbyk/u70S2iWzi+co=",
-      "DemoBoutique.FrontOffice.dll": "sha256-WaXF8ml0cJdiQ8ccVaNK4EijJr11hltv94wXOwLvE/I="
+      "DemoBoutique.FrontOffice.dll": "sha256-p4YqvAUpQSbeZKsZ+8NAymaLgG3GUXJGruxbDyOh+Yk="
     },
     "pdb": {
-      "DemoBoutique.FrontOffice.pdb": "sha256-ON7++xxfN++gQzVQq2RGvZowBfxJ9wgFbgrpB2XeI3M="
+      "DemoBoutique.FrontOffice.pdb": "sha256-CypZD0BR+e+hSpQ1xqyt2OkAhBxmM5+3ck7lDCttyII="
     },
     "runtimeAssets": {
       "dotnet.wasm": {
