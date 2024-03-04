@@ -15,11 +15,27 @@ namespace DemoBoutique.API.Controllers
             _serviceProduit = service;
         }
 
-        [HttpGet]
+        [HttpGet("All")]
+
         public async Task< IActionResult> Index()
         {
             var result = await _serviceProduit.ListAsync();
             return Ok(result);
+        }
+
+        [HttpPost("Add")]
+        public async Task<IActionResult> Add(Produit produit)
+        {
+            var result = await _serviceProduit.AddAsync(produit);
+            return Ok(result);
+        }
+
+        [Route("delete/{id}")]
+        [HttpDelete]
+        public async Task<IActionResult> Delete(int id)
+        {
+            await _serviceProduit.DeleteByIdAsync(id);
+            return Ok();
         }
     }
 }

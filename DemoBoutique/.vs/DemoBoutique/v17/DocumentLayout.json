@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\component\\dropdowncategorie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\component\\dropdowncategorie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\pages\\categorie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\pages\\categorie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\component\\dropdowncategorie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\component\\dropdowncategorie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\shared\\mymodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -110,7 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,13 +130,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DropdownCategorie.razor",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
               "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
               "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
               "RelativeToolTip": "DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAswBkAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwCIAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T17:19:51.616Z",
               "EditorCaption": ""
@@ -182,13 +182,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Categorie.razor",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Pages\\Categorie.razor",
               "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Pages\\Categorie.razor",
               "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Pages\\Categorie.razor",
               "RelativeToolTip": "DemoBoutique.BackOffice\\Pages\\Categorie.razor",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAUwG4AAAAAAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAA4AAACXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T13:47:37.885Z",
               "EditorCaption": ""
