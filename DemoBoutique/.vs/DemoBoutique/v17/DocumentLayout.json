@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\services\\categorieservicecs - copier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\services\\categorieservicecs - copier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\services\\categorieservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\services\\categorieservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DDDB56-569F-4C9D-925D-0C63E3ECD23F}|DemoBoutique.API\\DemoBoutique.API.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.api\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DDDB56-569F-4C9D-925D-0C63E3ECD23F}|DemoBoutique.API\\DemoBoutique.API.csproj|solutionrelative:demoboutique.api\\controllers\\produitcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7DDDB56-569F-4C9D-925D-0C63E3ECD23F}|DemoBoutique.API\\DemoBoutique.API.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.api\\controllers\\categoriecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7DDDB56-569F-4C9D-925D-0C63E3ECD23F}|DemoBoutique.API\\DemoBoutique.API.csproj|solutionrelative:demoboutique.api\\controllers\\categoriecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\pages\\categorie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\pages\\categorie.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,24 +43,8 @@
       "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\shared\\mymodal.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7DDDB56-569F-4C9D-925D-0C63E3ECD23F}|DemoBoutique.API\\DemoBoutique.API.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.api\\controllers\\categoriecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7DDDB56-569F-4C9D-925D-0C63E3ECD23F}|DemoBoutique.API\\DemoBoutique.API.csproj|solutionrelative:demoboutique.api\\controllers\\categoriecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\shared\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7DDDB56-569F-4C9D-925D-0C63E3ECD23F}|DemoBoutique.API\\DemoBoutique.API.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.api\\filters\\authorizationheaderparameteroperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -65,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\services\\categorieservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|solutionrelative:demoboutique.backoffice\\services\\categorieservicecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D762F30-ABC3-4A00-8B36-A355BC8FB551}|DemoBoutique.BackOffice\\DemoBoutique.BackOffice.csproj|c:\\users\\a\\desktop\\blzor formation\\demo\\repo\\demoboutique\\demoboutique.backoffice\\shared\\notificationalert.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -110,7 +118,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -130,46 +138,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DropdownCategorie.razor",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
-              "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
-              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
-              "RelativeToolTip": "DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
-              "ViewState": "AQIAABQAAAAAAAAAAAAUwCIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T17:19:51.616Z",
+              "DocumentIndex": 3,
+              "Title": "CategorieServicecs - Copier.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\CategorieServicecs - Copier.cs",
+              "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Services\\CategorieServicecs - Copier.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\CategorieServicecs - Copier.cs",
+              "RelativeToolTip": "DemoBoutique.BackOffice\\Services\\CategorieServicecs - Copier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T21:16:52.707Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "Index.razor",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Pages\\Index.razor",
               "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Pages\\Index.razor",
               "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Pages\\Index.razor",
               "RelativeToolTip": "DemoBoutique.BackOffice\\Pages\\Index.razor",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T16:25:54.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "MainLayout.razor",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Shared\\MainLayout.razor",
               "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Shared\\MainLayout.razor",
               "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Shared\\MainLayout.razor",
               "RelativeToolTip": "DemoBoutique.BackOffice\\Shared\\MainLayout.razor",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABoAAAAdAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T17:03:24.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Shared\\NavMenu.razor",
@@ -177,12 +185,11 @@
               "RelativeToolTip": "DemoBoutique.BackOffice\\Shared\\NavMenu.razor",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T14:20:45.819Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T14:20:45.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "Categorie.razor",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Pages\\Categorie.razor",
               "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Pages\\Categorie.razor",
@@ -190,142 +197,36 @@
               "RelativeToolTip": "DemoBoutique.BackOffice\\Pages\\Categorie.razor",
               "ViewState": "AQIAAD8AAAAAAAAAAAAAAA4AAACXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T13:47:37.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T13:47:37.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Login.razor",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Pages\\Login.razor",
               "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Pages\\Login.razor",
               "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Pages\\Login.razor",
               "RelativeToolTip": "DemoBoutique.BackOffice\\Pages\\Login.razor",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAEIAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-04T16:29:29.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategorieController.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Controllers\\CategorieController.cs",
-              "RelativeDocumentMoniker": "DemoBoutique.API\\Controllers\\CategorieController.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Controllers\\CategorieController.cs",
-              "RelativeToolTip": "DemoBoutique.API\\Controllers\\CategorieController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAADwvx0AAAAMAAAA",
+              "DocumentIndex": 5,
+              "Title": "ProduitController.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Controllers\\ProduitController.cs",
+              "RelativeDocumentMoniker": "DemoBoutique.API\\Controllers\\ProduitController.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Controllers\\ProduitController.cs",
+              "RelativeToolTip": "DemoBoutique.API\\Controllers\\ProduitController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAmwBwAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T15:05:37.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T21:15:16.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MyModal.razor",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Shared\\MyModal.razor",
-              "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Shared\\MyModal.razor",
-              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Shared\\MyModal.razor",
-              "RelativeToolTip": "DemoBoutique.BackOffice\\Shared\\MyModal.razor",
-              "ViewState": "AQIAABMAAAAAAAAAAAAUwCEAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T15:31:47.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\AuthService.cs",
-              "RelativeToolTip": "DemoBoutique.BackOffice\\Services\\AuthService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAIAwwCgAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T15:02:52.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Program.cs",
-              "RelativeDocumentMoniker": "DemoBoutique.API\\Program.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Program.cs",
-              "RelativeToolTip": "DemoBoutique.API\\Program.cs",
-              "ViewState": "AQIAAHUAAAAAAAAAAAAvwIEAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T23:42:48.208Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AuthenticateController.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Controllers\\AuthenticateController.cs",
-              "RelativeDocumentMoniker": "DemoBoutique.API\\Controllers\\AuthenticateController.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Controllers\\AuthenticateController.cs",
-              "RelativeToolTip": "DemoBoutique.API\\Controllers\\AuthenticateController.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAADwvx0AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T16:10:33.047Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AuthorizationHeaderParameterOperationFilter.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Filters\\AuthorizationHeaderParameterOperationFilter.cs",
-              "RelativeDocumentMoniker": "DemoBoutique.API\\Filters\\AuthorizationHeaderParameterOperationFilter.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Filters\\AuthorizationHeaderParameterOperationFilter.cs",
-              "RelativeToolTip": "DemoBoutique.API\\Filters\\AuthorizationHeaderParameterOperationFilter.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA5wBYAAAAUAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T16:54:07.33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CustomStateProvider.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\AuthenticationStateProvider\\CustomStateProvider.cs",
-              "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Services\\AuthenticationStateProvider\\CustomStateProvider.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\AuthenticationStateProvider\\CustomStateProvider.cs",
-              "RelativeToolTip": "DemoBoutique.BackOffice\\Services\\AuthenticationStateProvider\\CustomStateProvider.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAtwBcAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T15:55:28.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IdentityUserManager.cs",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\Persistence\\Auth\\IdentityUserManager.cs",
-              "RelativeDocumentMoniker": "DemoBoutique.Infrastructure\\Persistence\\Auth\\IdentityUserManager.cs",
-              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\Persistence\\Auth\\IdentityUserManager.cs",
-              "RelativeToolTip": "DemoBoutique.Infrastructure\\Persistence\\Auth\\IdentityUserManager.cs",
-              "ViewState": "AQIAAKMAAAAAAAAAAIAwwLIAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T16:48:03.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "DemoBoutique.API",
-              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\DemoBoutique.API.csproj",
-              "RelativeDocumentMoniker": "DemoBoutique.API\\DemoBoutique.API.csproj",
-              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\DemoBoutique.API.csproj",
-              "RelativeToolTip": "DemoBoutique.API\\DemoBoutique.API.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-04T16:41:45.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 4,
               "Title": "CategorieServicecs.cs",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\CategorieServicecs.cs",
               "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Services\\CategorieServicecs.cs",
@@ -333,12 +234,131 @@
               "RelativeToolTip": "DemoBoutique.BackOffice\\Services\\CategorieServicecs.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAawA0AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T15:34:08.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T15:34:08.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DropdownCategorie.razor",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
+              "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
+              "RelativeToolTip": "DemoBoutique.BackOffice\\Component\\DropdownCategorie.razor",
+              "ViewState": "AQIAABQAAAAAAAAAAAAUwCIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T17:19:51.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategorieController.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Controllers\\CategorieController.cs",
+              "RelativeDocumentMoniker": "DemoBoutique.API\\Controllers\\CategorieController.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Controllers\\CategorieController.cs",
+              "RelativeToolTip": "DemoBoutique.API\\Controllers\\CategorieController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:05:37.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyModal.razor",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Shared\\MyModal.razor",
+              "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Shared\\MyModal.razor",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Shared\\MyModal.razor",
+              "RelativeToolTip": "DemoBoutique.BackOffice\\Shared\\MyModal.razor",
+              "ViewState": "AQIAABMAAAAAAAAAAAAUwCEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-04T15:31:47.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\AuthService.cs",
+              "RelativeToolTip": "DemoBoutique.BackOffice\\Services\\AuthService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAIAwwCgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:02:52.333Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Program.cs",
+              "RelativeDocumentMoniker": "DemoBoutique.API\\Program.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Program.cs",
+              "RelativeToolTip": "DemoBoutique.API\\Program.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAvwIEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-03T23:42:48.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthenticateController.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Controllers\\AuthenticateController.cs",
+              "RelativeDocumentMoniker": "DemoBoutique.API\\Controllers\\AuthenticateController.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Controllers\\AuthenticateController.cs",
+              "RelativeToolTip": "DemoBoutique.API\\Controllers\\AuthenticateController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvx0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T16:10:33.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthorizationHeaderParameterOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Filters\\AuthorizationHeaderParameterOperationFilter.cs",
+              "RelativeDocumentMoniker": "DemoBoutique.API\\Filters\\AuthorizationHeaderParameterOperationFilter.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\Filters\\AuthorizationHeaderParameterOperationFilter.cs",
+              "RelativeToolTip": "DemoBoutique.API\\Filters\\AuthorizationHeaderParameterOperationFilter.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA5wBYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T16:54:07.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomStateProvider.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\AuthenticationStateProvider\\CustomStateProvider.cs",
+              "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Services\\AuthenticationStateProvider\\CustomStateProvider.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Services\\AuthenticationStateProvider\\CustomStateProvider.cs",
+              "RelativeToolTip": "DemoBoutique.BackOffice\\Services\\AuthenticationStateProvider\\CustomStateProvider.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAtwBcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T15:55:28.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IdentityUserManager.cs",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\Persistence\\Auth\\IdentityUserManager.cs",
+              "RelativeDocumentMoniker": "DemoBoutique.Infrastructure\\Persistence\\Auth\\IdentityUserManager.cs",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\Persistence\\Auth\\IdentityUserManager.cs",
+              "RelativeToolTip": "DemoBoutique.Infrastructure\\Persistence\\Auth\\IdentityUserManager.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAIAwwLIAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-04T16:48:03.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DemoBoutique.API.csproj",
+              "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\DemoBoutique.API.csproj",
+              "RelativeDocumentMoniker": "DemoBoutique.API\\DemoBoutique.API.csproj",
+              "ToolTip": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\DemoBoutique.API.csproj",
+              "RelativeToolTip": "DemoBoutique.API\\DemoBoutique.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-04T16:41:45.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "App.razor",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\App.razor",
               "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\App.razor",
@@ -346,12 +366,11 @@
               "RelativeToolTip": "DemoBoutique.BackOffice\\App.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T14:55:28.701Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T14:55:28.701Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "NotificationAlert.razor",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.BackOffice\\Shared\\NotificationAlert.razor",
               "RelativeDocumentMoniker": "DemoBoutique.BackOffice\\Shared\\NotificationAlert.razor",
@@ -359,12 +378,11 @@
               "RelativeToolTip": "DemoBoutique.BackOffice\\Shared\\NotificationAlert.razor",
               "ViewState": "AQIAAAYAAAAAAAAAAIBJwBAAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-04T14:34:20.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T14:34:20.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "CommandeRepository.cs",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\Repositories\\CommandeRepository.cs",
               "RelativeDocumentMoniker": "DemoBoutique.Infrastructure\\Repositories\\CommandeRepository.cs",
@@ -372,12 +390,11 @@
               "RelativeToolTip": "DemoBoutique.Infrastructure\\Repositories\\CommandeRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T13:23:27.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T13:23:27.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "CommandeLigneRepository.cs",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\Repositories\\CommandeLigneRepository.cs",
               "RelativeDocumentMoniker": "DemoBoutique.Infrastructure\\Repositories\\CommandeLigneRepository.cs",
@@ -385,12 +402,11 @@
               "RelativeToolTip": "DemoBoutique.Infrastructure\\Repositories\\CommandeLigneRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T13:23:26.825Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T13:23:26.825Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Infrastructure\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "DemoBoutique.Infrastructure\\UnitOfWork.cs",
@@ -398,12 +414,11 @@
               "RelativeToolTip": "DemoBoutique.Infrastructure\\UnitOfWork.cs",
               "ViewState": "AQIAAEYAAAAAAAAAAAAcwBEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T13:21:39.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T13:21:39.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "MigrateDataBase.cs",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.API\\MigrateDataBase.cs",
               "RelativeDocumentMoniker": "DemoBoutique.API\\MigrateDataBase.cs",
@@ -411,12 +426,11 @@
               "RelativeToolTip": "DemoBoutique.API\\MigrateDataBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:28:20.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T11:28:20.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "CategorieService.cs",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Application\\Services\\CategorieService.cs",
               "RelativeDocumentMoniker": "DemoBoutique.Application\\Services\\CategorieService.cs",
@@ -424,12 +438,11 @@
               "RelativeToolTip": "DemoBoutique.Application\\Services\\CategorieService.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAIBJwBMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:12:02.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T11:12:02.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "IServiceBase.cs",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Application\\Interfaces\\IServices\\IServiceBase.cs",
               "RelativeDocumentMoniker": "DemoBoutique.Application\\Interfaces\\IServices\\IServiceBase.cs",
@@ -437,12 +450,11 @@
               "RelativeToolTip": "DemoBoutique.Application\\Interfaces\\IServices\\IServiceBase.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:10:34.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T11:10:34.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "ICategorieRepository.cs",
               "DocumentMoniker": "C:\\Users\\A\\Desktop\\blzor formation\\Demo\\repo\\DemoBoutique\\DemoBoutique.Application\\Interfaces\\IRepositories\\ICategorieRepository.cs",
               "RelativeDocumentMoniker": "DemoBoutique.Application\\Interfaces\\IRepositories\\ICategorieRepository.cs",
@@ -450,8 +462,7 @@
               "RelativeToolTip": "DemoBoutique.Application\\Interfaces\\IRepositories\\ICategorieRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:06:03.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T11:06:03.331Z"
             }
           ]
         }

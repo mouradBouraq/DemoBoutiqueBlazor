@@ -6,9 +6,9 @@
 @inherits LayoutComponentBase
 
 <PageTitle>DemoBoutique</PageTitle>
-
+@* 
 <AuthorizeView>
-    <Authorized>
+    <Authorized> *@
         <div class="page">
             <div class="sidebar">
                 <NavMenu />
@@ -30,13 +30,13 @@
                 </article>
             </main>
         </div>
-    </Authorized>
-    <NotAuthorized>
+  @*   </Authorized>
+    <NotAuthorized> *@
         @{
             // navigationManager.NavigateTo("/login", true, true);
         }
-    </NotAuthorized>
-</AuthorizeView>
+  @*   </NotAuthorized>
+</AuthorizeView> *@
 
 
 @code {

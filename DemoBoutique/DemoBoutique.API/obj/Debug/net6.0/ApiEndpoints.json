@@ -99,12 +99,44 @@
   },
   {
     "ContainingType": "DemoBoutique.API.Controllers.ProduitController",
+    "Method": "Add",
+    "RelativePath": "api/Produit/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "produit",
+        "Type": "DemoBoutique.Domain.Produit.Produit",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.ProduitController",
     "Method": "Index",
-    "RelativePath": "api/Produit",
+    "RelativePath": "api/Produit/All",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DemoBoutique.API.Controllers.ProduitController",
+    "Method": "Delete",
+    "RelativePath": "api/Produit/delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
