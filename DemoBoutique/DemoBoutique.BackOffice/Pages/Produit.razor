@@ -1,0 +1,24 @@
+﻿@page "/produits"
+<h3>Produit</h3>
+
+<div class="container">
+    <div class="row">
+        <div class="d-flex justify-content-end">
+            <button class="btn btn-primary" @onclick="Add">Ajouter une produit</button>
+        </div>
+    </div>
+</div>
+<MyModal @ref="modal" Title="My Modal" ShowSaveButton="true">
+   @*  <DemoBoutique.BackOffice.Component.AddCategorie OnSave="SaveModal" @ref="addCategorie">
+
+    </DemoBoutique.BackOffice.Component.AddCategorie> *@
+</MyModal>
+@code {
+
+    MyModal modal;
+
+    public void Add()
+    {
+        modal.Show();
+    }
+}
