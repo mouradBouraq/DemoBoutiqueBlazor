@@ -1,4 +1,5 @@
 using DemoBoutique.FrontOffice;
+using DemoBoutique.FrontOffice.Services;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 
@@ -12,7 +13,11 @@ namespace DemoBoutique.FrontOffice
             builder.RootComponents.Add<App>("#app");
             builder.RootComponents.Add<HeadOutlet>("head::after");
 
-            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
+            //Http client
+            string apiUrl = builder.Configuration["ApiUrl"];
+
+            builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(apiUrl) });
+            builder.Services.AddScoped<ProduitServices>();
 
             await builder.Build().RunAsync();
         }

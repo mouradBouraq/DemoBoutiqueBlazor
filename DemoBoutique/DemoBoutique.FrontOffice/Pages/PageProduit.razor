@@ -1,0 +1,91 @@
+﻿@page "/produits"
+@using DemoBoutique.Domain.Models
+@using DemoBoutique.Domain.Produit
+@using DemoBoutique.FrontOffice.Services
+@inject ProduitServices _produitServices
+<h3>Produits</h3>
+<div class="row">
+
+    @foreach (var p in commandeLigneModelList)
+    {
+        CommandeLigneModel ligneToBind = p;
+        string classbtn = "btn-primary";
+        var cl = @commandeModel.CommandeLigneModels.FirstOrDefault(commandeLigneModelList => commandeLigneModelList.IdProduit == p.IdProduit);
+        if (cl != null)
+        {
+            ligneToBind = cl;
+            classbtn = "btn-success";
+        }
+        var produit = listProduits.Where(pr => pr.Id == ligneToBind.IdProduit).FirstOrDefault();
+        <div class="col-md-4">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="@produit.Image" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@ligneToBind.Libele</h5>
+                    <p class="card-text">@ligneToBind.PrixUnitaire MAD</p>
+                    <div class="row">
+
+                        <input @onclick="args => OnAdd(ligneToBind)" class="btn @classbtn col-md-8" value="Ajouter au panier" />
+                        <input type="number" @bind-value="ligneToBind.Quantite" class="col-md-4" width="20px" />
+                    </div>
+                    <div class="row">
+                        <input @onclick="args => OnDelete(p.IdProduit)" class="btn btn-danger" value="Supprimer du panier" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+
+
+@code {
+    List<Produit> listProduits = new List<Produit>();
+
+    List<CommandeLigneModel> commandeLigneModelList = new List<CommandeLigneModel>();
+    [CascadingParameter]
+    EventCallback event_alert { get; set; }
+    [CascadingParameter]
+    public CommandeModel commandeModel { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        if (commandeModel == null)
+        {
+            commandeModel = new CommandeModel() { CommandeLigneModels = new List<CommandeLigneModel>() };
+        }
+        listProduits = await _produitServices.All();
+        commandeLigneModelList = listProduits.Select(p => new CommandeLigneModel { IdProduit = p.Id, Libele = p.Libelle, PrixUnitaire = p.Prix, Quantite = 0 }).ToList();
+    }
+
+
+    async Task OnDelete(int id)
+    {
+        var cl = commandeModel.CommandeLigneModels.FirstOrDefault(c => c.IdProduit == id);
+        if (cl != null)
+        {
+            cl.Quantite = 0;
+            commandeModel.CommandeLigneModels.Remove(cl);
+        }
+        StateHasChanged();
+        await event_alert.InvokeAsync();
+
+    }
+
+    async Task OnAdd(CommandeLigneModel produit)
+    {
+        //Get ligen
+        var cl = commandeModel.CommandeLigneModels.FirstOrDefault(c => c.IdProduit == produit.IdProduit);
+        if (cl == null)
+        {
+            commandeModel.CommandeLigneModels.Add(produit);
+        }
+        else
+        {
+            cl.Quantite = produit.Quantite;
+        }
+
+        StateHasChanged();
+        await event_alert.InvokeAsync();
+
+    }
+}

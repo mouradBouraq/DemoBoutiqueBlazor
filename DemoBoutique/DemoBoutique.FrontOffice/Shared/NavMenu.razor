@@ -1,4 +1,5 @@
-﻿<div class="top-row ps-3 navbar navbar-dark">
+﻿@using DemoBoutique.Domain.Models
+<div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="">DemoBoutique.FrontOffice</a>
         <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
@@ -15,21 +16,27 @@
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="counter">
-                <span class="oi oi-plus" aria-hidden="true"></span> Counter
+            <NavLink class="nav-link" href="produits">
+                <span class="oi oi-plus" aria-hidden="true"></span> Produits
             </NavLink>
         </div>
         <div class="nav-item px-3">
-            <NavLink class="nav-link" href="fetchdata">
-                <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+            <NavLink class="nav-link" href="panier">
+                <span class="oi oi-list-rich" aria-hidden="true"></span>
+                Panier
+                <span class="badge badge-info">@panierCount</span>
             </NavLink>
         </div>
     </nav>
 </div>
 
 @code {
+    [CascadingParameter]
+    public CommandeModel commandeModel { get; set; } = new CommandeModel { CommandeLigneModels = new List<CommandeLigneModel>() };
     private bool collapseNavMenu = true;
 
+    [Parameter]
+    public int panierCount { get; set; } = 0;
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
     private void ToggleNavMenu()

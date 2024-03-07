@@ -1,0 +1,10 @@
+﻿@page "/panier"
+@using DemoBoutique.Domain.Models
+
+<h3>Panier</h3>
+@commandeModel.CommandeLigneModels.Count()
+@code {
+
+    [CascadingParameter]
+    public CommandeModel commandeModel { get; set; }
+}

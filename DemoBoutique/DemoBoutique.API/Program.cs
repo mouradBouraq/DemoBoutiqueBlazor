@@ -110,11 +110,20 @@ namespace DemoBoutique.API
                     Description = "JWT Authorization header. \r\n\r\n Enter the token in the text input below.,"
                 });
 
-                //c.OperationFilter<AddRequiredHeaderParameter>();
             });
 
-
+            //Enable cors
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyHeader()
+                           .AllowAnyMethod();
+                });
+            });
             var app = builder.Build();
+            app.UseCors("AllowAll");
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())

@@ -1,17 +1,35 @@
-﻿@inherits LayoutComponentBase
+﻿@using DemoBoutique.Domain.Models
+@inherits LayoutComponentBase
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu />
-    </div>
+<CascadingValue Value="commandeModel">
+    <CascadingValue Value="event_alert">
 
-    <main>
-        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+        <div class="page">
+            <div class="sidebar">
+                <NavMenu panierCount="@panierCount" />
+            </div>
+
+            <main>
+                <div class="top-row px-4">
+                    <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
+                </div>
+
+                <article class="content px-4">
+                    @Body
+                </article>
+            </main>
         </div>
+    </CascadingValue>
+</CascadingValue>
+@code {
 
-        <article class="content px-4">
-            @Body
-        </article>
-    </main>
-</div>
+    EventCallback event_alert => EventCallback.Factory.Create(this, (Action)RefreshPanier);
+    int panierCount = 0;
+    public CommandeModel commandeModel { get; set; } = new CommandeModel { CommandeLigneModels = new List<CommandeLigneModel>() };
+
+    public void RefreshPanier()
+    {
+        panierCount = commandeModel.CommandeLigneModels.Sum(c => c.Quantite);
+
+    }
+}
