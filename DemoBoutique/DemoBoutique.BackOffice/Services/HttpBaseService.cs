@@ -48,6 +48,12 @@ namespace DemoBoutique.BackOffice.Services
             return response;
         }
 
+        protected async Task<HttpResponseMessage> Update(string uri, T model)
+        {
+            var response = await _httpClient.PostAsJsonAsync(uri, model);
+            return response;
+        }
+
         protected async Task<HttpResponseMessage> Add<Y>(string uri, Y model)
         {
             var response = await _httpClient.PostAsJsonAsync(uri, model);

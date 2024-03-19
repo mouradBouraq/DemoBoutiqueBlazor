@@ -19,7 +19,10 @@ namespace DemoBoutique
             builder.Services.AddServerSideBlazor();
             builder.Services.AddScoped<WeatherForecastService>();
             builder.Services.AddScoped<CategorieServicecs>();
+            builder.Services.AddScoped<ProduitServicecs>();
             builder.Services.AddScoped<AuthService>();
+            builder.Services.AddAuthorizationCore();
+
             builder.Services.AddScoped<AuthenticationStateProvider, CustomStateProvider>();
 
 

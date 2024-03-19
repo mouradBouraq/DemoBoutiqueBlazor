@@ -17,6 +17,8 @@
 
 @code {
     [Parameter] public string Title { get; set; }
+  
+
     [Parameter] public RenderFragment ChildContent { get; set; }
     [Parameter] public bool ShowSaveButton { get; set; }
     [Parameter] public EventCallback OnSave { get; set; }
@@ -37,6 +39,7 @@
 
     private async Task Save()
     {
+        
         await OnSave.InvokeAsync();
         CloseModal();
     }

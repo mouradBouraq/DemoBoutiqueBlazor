@@ -1,4 +1,4 @@
-﻿@page "/login"
+﻿@page "/"
 @layout LoginpageLayout
 @inject AuthService _loginService
 
@@ -64,7 +64,7 @@
             var result = await _loginService.LoginAsync(loginRequest);
             if (result.IsSuccessStatusCode)
             {
-                _navigationManager.NavigateTo("/init", true, true);
+                _navigationManager.NavigateTo("/dashboard");
             }
             else
             {

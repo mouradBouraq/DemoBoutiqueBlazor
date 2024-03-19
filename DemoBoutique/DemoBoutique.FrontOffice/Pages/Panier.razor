@@ -1,10 +1,145 @@
 ﻿@page "/panier"
+@using DemoBoutique.Domain.Commande
 @using DemoBoutique.Domain.Models
-
+@using DemoBoutique.FrontOffice.Services
+@inject CommandeServices _commandeService
 <h3>Panier</h3>
 @commandeModel.CommandeLigneModels.Count()
+
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                Commandes
+            </div>
+            <div class="card-body">
+                <table class="table table-responsive">
+                    <thead>
+                        <tr>
+                            <th>Libellé</th>
+                            <th>Quantité</th>
+                            <th>Prix</th>
+                            <th>Total</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var p in commandeModel.CommandeLigneModels)
+                        {
+                            double pu = p.PrixUnitaire;
+                            int qte = p.Quantite;
+                            double total = pu * qte;
+                            <tr>
+                                <td>@p.Libele</td>
+                                <td>
+                                    <input type="number" value="@p.Quantite" @onchange="args=>HandleNumberChange(args,p)" class="col-md-2" />
+                                </td>
+                                <td>@p.PrixUnitaire</td>
+                                <td>@total</td>
+                                <td>
+
+                                    <button type="button" class="btn btn-primary" @onclick="args=>OnUpdate(p)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16">
+                                            <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325" />
+                                        </svg>
+                                    </button>
+                                    <button type="button" class="btn btn-danger" @onclick="args=>OnDelete(p.IdProduit)">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+                                            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z"></path>
+                                            <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z"></path>
+                                        </svg>
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th>Total</th>
+                            <th>@commandeModel.Total</th>
+                            <th></th>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="card-footer">
+                <input @onclick="args => OnAdd()" class="btn-success col-md-2" value="Ajouter une commande" />
+            </div>
+        </div>
+    </div>
+</div>
 @code {
 
     [CascadingParameter]
     public CommandeModel commandeModel { get; set; }
+    [CascadingParameter]
+    EventCallback event_alert { get; set; }
+    public async Task HandleNumberChange(ChangeEventArgs e, CommandeLigneModel commandeLigneModel)
+    {
+        commandeLigneModel.Quantite = Convert.ToInt32(e.Value);
+        await event_alert.InvokeAsync();
+
+    }
+    async Task OnUpdate(CommandeLigneModel produit)
+    {
+        //Get ligen
+        var cl = commandeModel.CommandeLigneModels.FirstOrDefault(c => c.IdProduit == produit.IdProduit);
+        if (cl != null)
+        {
+            cl.Quantite = produit.Quantite;
+        }
+
+        StateHasChanged();
+        await event_alert.InvokeAsync();
+
+    }
+
+    async Task OnDelete(int id)
+    {
+        var cl = commandeModel.CommandeLigneModels.FirstOrDefault(c => c.IdProduit == id);
+        if (cl != null)
+        {
+            cl.Quantite = 0;
+            commandeModel.CommandeLigneModels.Remove(cl);
+        }
+        StateHasChanged();
+        await event_alert.InvokeAsync();
+
+    }
+
+    [Parameter]
+    public EventCallback OnSave { get; set; }
+    async Task OnAdd()
+    {
+        await _commandeService.Add(commandeModel);
+        await OnSave.InvokeAsync();
+
+    }
+
+
+
+    public async void OnSubmit()
+    {
+        //Commande _newCommande = new Commande();
+        // _newCommande.ClientID = 1;
+        // _newCommande.TotalPrixTTC = commandeModel.Total;
+        // _newCommande.Lignes = commandeModel.CommandeLigneModels.Select(cl=> new CommandeLigne
+        // {
+        //      ProduitId=
+        // });
+        //commandeModel
+        // await _commandeService.Add(commandeModel);
+        // await OnSave.InvokeAsync();
+        // produit = new ProduitPostDtoscs();
+    }
+    // protected async override void OnParametersSet()
+    // {
+    //await event_alert.InvokeAsync();
+    // Call base implementation
+    // base.OnParametersSet();
+    // }
 }

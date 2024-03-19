@@ -18,6 +18,8 @@ namespace DemoBoutique.FrontOffice
 
             builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(apiUrl) });
             builder.Services.AddScoped<ProduitServices>();
+            builder.Services.AddScoped<CommandeServices>();
+            //CommandeServices
 
             await builder.Build().RunAsync();
         }

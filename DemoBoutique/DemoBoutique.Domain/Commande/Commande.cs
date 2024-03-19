@@ -10,8 +10,8 @@ namespace DemoBoutique.Domain.Commande
     {
         public decimal TotalPrixTTC { get; set; }
         public int  ClientID { get; set; }
-        List<CommandeLigne> Lignes { get; set; }
-        public DemoBoutique.Domain.Client.Client Client { get; set; }
+      public  List<CommandeLigne> Lignes { get; set; } =new List<CommandeLigne>();
+        public DemoBoutique.Domain.Client.Client Client { get; set; } = new Client.Client();
 
     }
 }

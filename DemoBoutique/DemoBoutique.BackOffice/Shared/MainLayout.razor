@@ -1,4 +1,6 @@
 ﻿@using DemoBoutique.BackOffice.Models
+@using System.Security.Claims
+
 @inject AuthenticationStateProvider GetAuthenticationStateAsync
 @inject NavigationManager navigationManager
 
@@ -6,20 +8,18 @@
 @inherits LayoutComponentBase
 
 <PageTitle>DemoBoutique</PageTitle>
-@* 
-<AuthorizeView>
-    <Authorized> *@
+
+<AuthorizeView Context="auth">
+    <Authorized>
         <div class="page">
             <div class="sidebar">
                 <NavMenu />
                 menu
             </div>
-
             <main>
                 <div class="top-row px-4">
                     <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
                 </div>
-
                 <article class="content px-4">
                     <CascadingValue Value="event_alert">
                         <CascadingValue Value="testCascading">
@@ -30,13 +30,13 @@
                 </article>
             </main>
         </div>
-  @*   </Authorized>
-    <NotAuthorized> *@
+    </Authorized>
+    <NotAuthorized>
         @{
-            // navigationManager.NavigateTo("/login", true, true);
+            navigationManager.NavigateTo("/");
         }
-  @*   </NotAuthorized>
-</AuthorizeView> *@
+    </NotAuthorized>
+</AuthorizeView>
 
 
 @code {
@@ -63,4 +63,4 @@
         base.OnParametersSet();
     }
 
-}
+    }

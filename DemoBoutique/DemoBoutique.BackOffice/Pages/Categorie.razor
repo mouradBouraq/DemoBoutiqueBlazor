@@ -4,13 +4,23 @@
 @using DemoBoutique.BackOffice.Models
 @using DemoBoutique.BackOffice.Services
 @using DemoBoutique.Domain.Categorie
+@inject NavigationManager navigationManager
+
 
 @inject CategorieServicecs _categorieServicecs
 
 @page "/categorie"
 
 <PageTitle>Categorie</PageTitle>
-
+<AuthorizeView>
+    <Authorized>
+    </Authorized>
+    <NotAuthorized>
+        @{
+            navigationManager.NavigateTo("/login", true, true);
+        }
+    </NotAuthorized>
+</AuthorizeView>
 <h1>Categorie</h1>
 @* <DemoBoutique.BackOffice.Component.DropdownCategorie @bind-CategorieId="sectedCategorieId"></DemoBoutique.BackOffice.Component.DropdownCategorie> *@
 <div class="container">

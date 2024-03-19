@@ -8,7 +8,7 @@ namespace DemoBoutique.Domain.Models
 {
     public class CommandeModel
     {
-        public decimal Total
+        public double Total
         {
             get
             {
@@ -25,6 +25,6 @@ namespace DemoBoutique.Domain.Models
         public int IdProduit { get; set; }
         public string Libele { get; set; }
         public int Quantite { get; set; }
-        public decimal PrixUnitaire { get; set; }
+        public double PrixUnitaire { get; set; }
     }
 }

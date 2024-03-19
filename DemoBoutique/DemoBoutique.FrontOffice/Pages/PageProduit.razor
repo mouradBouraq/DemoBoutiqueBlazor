@@ -26,7 +26,7 @@
                     <div class="row">
 
                         <input @onclick="args => OnAdd(ligneToBind)" class="btn @classbtn col-md-8" value="Ajouter au panier" />
-                        <input type="number" @bind-value="ligneToBind.Quantite" class="col-md-4" width="20px" />
+                        <input type="number" value="@ligneToBind.Quantite" @onchange="args=>HandleNumberChange(args,ligneToBind)" class="col-md-4" width="20px" />
                     </div>
                     <div class="row">
                         <input @onclick="args => OnDelete(p.IdProduit)" class="btn btn-danger" value="Supprimer du panier" />
@@ -54,9 +54,15 @@
             commandeModel = new CommandeModel() { CommandeLigneModels = new List<CommandeLigneModel>() };
         }
         listProduits = await _produitServices.All();
-        commandeLigneModelList = listProduits.Select(p => new CommandeLigneModel { IdProduit = p.Id, Libele = p.Libelle, PrixUnitaire = p.Prix, Quantite = 0 }).ToList();
+        commandeLigneModelList = listProduits.Select(p => new CommandeLigneModel { IdProduit = p.Id, Libele = p.Libelle, PrixUnitaire = (double)p.Prix, Quantite = 0 }).ToList();
     }
 
+    public async Task HandleNumberChange(ChangeEventArgs e, CommandeLigneModel commandeLigneModel)
+    {
+        commandeLigneModel.Quantite = Convert.ToInt32(e.Value);
+        await event_alert.InvokeAsync();
+
+    }
 
     async Task OnDelete(int id)
     {
