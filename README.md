@@ -1,14 +1,15 @@
-<b>Ce projet a pour but de mettre en action a exemple complet d'une application realiser en blazor
-L'architecture de projet : Clean architecture
+<b> Ce projet a pour but de mettre en action un exemple complet d'une application réalisée en blazor
+L'architecture de projet : clean architecture
 
-Le projet et composer de 3 solution qui se complet :
+Le projet est composé de 3 solutions qui se complètent :
 -
 - Blazor server : Front office 
 - WebAssembly : Back office
-- WebAPI : API Restfull<br>
-  Freamwork utliser .net6/.net core .
-- Pour demarer le projet il faut remplacer la chaine de connexion '<b>DefaultConnection</b>' par une chaine valide sur votre base donnees SqlServeur.
-- Pour genere la base donnes il faut juste lancer le projet API et la base va se creer automatiquement via les migration Code first.
+- WebAPI : API Restfull
+
+Freamwork utiliser .net6/.net cor.
+Pour démarrer le projet, il faut remplacer la chaîne de connexion '< b >DefaultConnection</b >' par une chaîne valide sur votre base donnée SqlServeur.
+Pour générer la base donnée, il faut juste lancer le projet API et la base va se créer automatiquement via les migration Code first.
 
 Fonctionalite blazor principale :
 - 
@@ -19,3 +20,4 @@ Fonctionalite blazor principale :
 - <b> Component
 - <b> Pages
 - <b> HttpClient
+- <b> Life cycle (OnInitializedAsync,OnParametersSet,OnAfterRender)
