@@ -129,3 +129,7 @@
 /DemoBoutique/DemoBoutique.Infrastructure/bin/Debug/net6.0/DemoBoutique.Domain.dll
 /DemoBoutique/DemoBoutique.Infrastructure/obj/Debug/net6.0/DemoBoutique.Infrastructure.csproj.AssemblyReference.cache
 /DemoBoutique/DemoBoutique.slnLaunch.user
+/DemoBoutique/DemoBoutique.FrontOffice/obj/Debug/net6.0
+/DemoBoutique/DemoBoutique.FrontOffice/bin/Debug/net6.0/wwwroot/_framework
+/DemoBoutique/DemoBoutique.Application/obj/Debug/net6.0
+/DemoBoutique/DemoBoutique.BackOffice/obj/Debug/net6.0
