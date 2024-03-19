@@ -121,10 +121,6 @@
         await NotificationAlert.InvokeAsync(alert);
         produits = await _produitServicecs.GetAll();
 
-        // testCascading.IsVisible = alert.IsVisible;
-        // testCascading.Message = alert.Message;
-        // testCascading.Type = alert.Type;
-
     }
 
     public void Update(ProduitGetDtoscs produit)
