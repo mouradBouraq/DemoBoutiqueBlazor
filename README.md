@@ -1,4 +1,5 @@
 <b> Ce projet a pour but de mettre en action un exemple complet d'une application réalisée en blazor
+
 L'architecture de projet : clean architecture
 
 Le projet est composé de 3 solutions qui se complètent :
