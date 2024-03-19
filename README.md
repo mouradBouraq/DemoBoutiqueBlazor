@@ -8,7 +8,7 @@ Le projet est composé de 3 solutions qui se complètent :
 - WebAPI : API Restfull
 
 Freamwork utiliser .net6/.net cor.
-Pour démarrer le projet, il faut remplacer la chaîne de connexion '< b >DefaultConnection</b >' par une chaîne valide sur votre base donnée SqlServeur.
+Pour démarrer le projet, il faut remplacer la chaîne de connexion '<b>DefaultConnection</b>' par une chaîne valide sur votre base donnée SqlServeur.
 Pour générer la base donnée, il faut juste lancer le projet API et la base va se créer automatiquement via les migration Code first.
 
 Fonctionalite blazor principale :
