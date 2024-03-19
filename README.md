@@ -22,3 +22,4 @@ Fonctionalite blazor principale :
 - <b> Pages
 - <b> HttpClient
 - <b> Life cycle (OnInitializedAsync,OnParametersSet,OnAfterRender)
+- ...
