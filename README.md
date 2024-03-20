@@ -23,3 +23,8 @@ Fonctionalite blazor principale :
 - <b> HttpClient
 - <b> Life cycle (OnInitializedAsync,OnParametersSet,OnAfterRender)
 - ...
+
+Back office
+-
+Login : system@boutique.com
+password : 123456@ABc
